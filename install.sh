@@ -91,7 +91,7 @@ brew_install scmpuff
 brew_install fzf
 brew_install fd
 brew_install the_silver_searcher
-brew_install nvim
+#brew_install nvim
 brew_install exiftool
 brew_install archey
 brew_install ranger
@@ -116,12 +116,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ln -s ~/.macbootstrap/zsh-config/.zshrc ~/.zshrc
 
 # vim configuration
-backup_file ~/.vim
-backup_file ~/.config/nvim/
-git clone https://github.com/bestswifter/vim-config.git ~/.config/nvim
-ln -s ~/.config/nvim ~/.vim
-backup_file ~/.ideavimrc
-ln -s ~/.config/ideavimrc ~/.ideavimrc
+# backup_file ~/.vim
+# backup_file ~/.config/nvim/
+# git clone https://github.com/bestswifter/vim-config.git ~/.config/nvim
+# ln -s ~/.config/nvim ~/.vim
+# backup_file ~/.ideavimrc
+# ln -s ~/.config/ideavimrc ~/.ideavimrc
 
 # ESLint configuration
 backup_file ~/.eslintrc.js
